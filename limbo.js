@@ -4,6 +4,6 @@
             return dream(level++);
         })();
     } catch(e){
-        console.log(level);
+        alert(level + ' levels deep!');
     }
 })(1);
